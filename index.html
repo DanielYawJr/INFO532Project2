@@ -11,8 +11,8 @@
     <title>Welcome to Netscape!</title>
   </head>
   <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Netscape</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -21,15 +21,17 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            New and Cool!
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="whats-new.htm">What's New!</a>
+            <a class="dropdown-item" href="whats-cool.html">What's Cool!</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
     </ul>
   </div>
 </nav>
@@ -112,12 +114,6 @@ visit.<P>
 every new Internet site under the sun?  The What's Cool page highlights
 some of the most interesting and compelling resources on the
 Internet.  It changes regularly, so stop back often.<p>
-
-<DT><A HREF="newsrc:">Go to Newsgroups</A> 
-<DD>There are thousands of newsgroups on the Internet where users get together
-to discuss a wide variety of topics.  With Netscape, you can 
-participate in these groups, follow along and get involved in conversations,
-and post your own replies.<P>
 
 <DT><A HREF="internet-index.html">Internet Directory</A>
 <DD>This is your Directory of Directories: each of these directories is a
